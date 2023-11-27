@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: darkgray;
+}
+.container{
+    background-color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+input{
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: hotpink;
+    color: whitesmoke;
+}
+p{
+    font-size: 34px;
+    background-color: white;
+
+}
+i{
+    margin: 10px;
+    height: 22x;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Lucida Handwriting;
+    color: darkmagenta;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+@media screen and (max-width:915px){
+   .container{
+    background-color: lightpink;
+    width: 80%;
+   } 
+   h1{
+    font-size: 28px;
+    padding: 20px 0 20px 0;
+   }
+   p{
+    font-size: 18px;
+    padding: 7px 0 7px 0;
+    border-radius: 35px;
+    margin-bottom: 40px;
+   }
+   input{
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+   }
+   body{
+    background-image: url(./bac.gif);
+   }
+   button{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    width: 100px;
+    border-radius: 5px;
+   }
+   button:hover{
+    background-color: orangered;
+    cursor: pointer;
+   }
+} 
